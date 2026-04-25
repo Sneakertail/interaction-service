@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: interaction-service-config
+  namespace: dev
+data:
+  PORT: "3004"
+  DB_HOST: "postgres"
+  DB_USER: "admin"
+  DB_NAME: "sneakerdb"
+
