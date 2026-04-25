@@ -23,8 +23,8 @@ spec:
     spec:
       containers:
         - name: interaction-service
-          image: sneakertail/interaction-service:latest
-          imagePullPolicy: IfNotPresent
+          image: ghcr.io/sneakertail/interaction-service:dev
+          imagePullPolicy: Always
           ports:
             - name: http
               containerPort: 3004
